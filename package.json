@@ -8,6 +8,7 @@
     "start": "npm install --no-audit --no-fund && vite --host",
     "dev": "vite --host",
     "build": "vite build",
+    "build:datei": "vite build --mode datei && node scripts/datei-kopieren.js",
     "preview": "vite preview --host",
     "test": "node --test src/rules/rules.test.js",
     "schema-doku": "node scripts/schema-doku.js"
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^7.3.1",
     "svelte": "^5.57.1",
-    "vite": "^8.3.1"
+    "vite": "^8.3.1",
+    "vite-plugin-singlefile": "^2.3.3"
   }
 }

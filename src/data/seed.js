@@ -9,7 +9,9 @@ const MIN = 60 * 1000;
 const STD = 60 * MIN;
 const TAG = 24 * STD;
 
-const bild = (n) => `platzhalter/igel-${n}.svg`;
+// Platzhalterbilder werden importiert, damit sie auch in der Einzeldatei-Version (npm run build:datei) enthalten sind
+const BILDER = import.meta.glob('../assets/platzhalter/igel-*.svg', { eager: true, query: '?url', import: 'default' });
+const bild = (n) => BILDER[`../assets/platzhalter/igel-${n}.svg`];
 const datum = (d) =>
   `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 

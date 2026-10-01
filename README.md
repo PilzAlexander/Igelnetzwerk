@@ -4,9 +4,21 @@ Prototyp für die Igelstation in Region 10 (Ingolstadt, Eichstätt, Neuburg-Schr
 
 Später läuft das Ganze auf **Baserow** (Daten) und **n8n** (Automatik). Der Prototyp ist so gebaut, dass beides ohne Umbau der Oberfläche dahinter passt.
 
-## Starten
+## Ohne Installation ausprobieren (z. B. Windows ohne Node.js)
 
-Voraussetzung ist Node.js ab 20.19 bzw. 22.12.
+Die Datei **`prototyp/igel-leitstelle.html`** enthält den kompletten Prototyp in einer einzigen Datei:
+
+1. Auf GitHub die Datei öffnen → oben rechts „Download raw file“ (Pfeil nach unten) klicken.
+   Oder das ganze Repo als ZIP laden: grüner Knopf „Code“ → „Download ZIP“ → entpacken.
+2. `igel-leitstelle.html` doppelklicken. Sie öffnet sich im Browser (Edge, Chrome oder Firefox).
+
+Die Daten bleiben im Browser auf diesem Rechner gespeichert. Zum Weitergeben an Tester*innen die Datei einfach per Mail oder USB-Stick verschicken.
+
+Die Datei wird mit `npm run build:datei` neu erzeugt. Bitte nach jeder Änderung neu bauen und mit einchecken.
+
+## Starten (für Entwicklung)
+
+Voraussetzung ist Node.js ab 20.19 bzw. 22.12. Unter Windows: Installer von https://nodejs.org (Version „LTS“), oder in PowerShell `winget install OpenJS.NodeJS.LTS`. npm ist dabei. Danach PowerShell neu öffnen und im Projektordner:
 
 ```bash
 npm start
@@ -21,9 +33,10 @@ Weitere Befehle:
 | `npm run dev` | nur starten (ohne Installation) |
 | `npm test` | Tests für die Automatik-Regeln |
 | `npm run build` | fertige Dateien nach `dist/` (lassen sich auf jeden Webspace legen) |
+| `npm run build:datei` | Einzeldatei `prototyp/igel-leitstelle.html` neu erzeugen |
 | `npm run schema-doku` | erzeugt `docs/baserow-schema.md` neu |
 
-**Am Handy testen:** Handy und Rechner ins selbe WLAN, dann die „Network“-Adresse öffnen, die beim Start angezeigt wird (z. B. `http://192.168.1.20:5173`). Achtung: Über so eine `http://`-Adresse sperrt das Handy die Funktion „Standort verwenden“, weil Browser den Standort nur über `https` oder `localhost` freigeben. Kamera und alles andere funktionieren.
+**Am Handy testen:** Am einfachsten ist es, den Inhalt von `dist/` auf einen Webspace mit `https` zu legen. Lokal geht es so: Handy und Rechner ins selbe WLAN, dann die „Network“-Adresse öffnen, die beim Start angezeigt wird (z. B. `http://192.168.1.20:5173`). Achtung: Über so eine `http://`-Adresse sperrt das Handy die Funktion „Standort verwenden“, weil Browser den Standort nur über `https` oder `localhost` freigeben. Kamera und alles andere funktionieren.
 
 ### Die Bereiche
 

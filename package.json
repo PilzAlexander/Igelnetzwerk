@@ -5,8 +5,8 @@
   "description": "Klickbarer Prototyp der Igel-Leitstelle (Region 10: IN, EI, ND, PAF)",
   "type": "module",
   "scripts": {
-    "start": "npm install --no-audit --no-fund && vite --host",
-    "dev": "vite --host",
+    "start": "node scripts/node-pruefen.cjs && npm install --no-audit --no-fund && vite --host",
+    "dev": "node scripts/node-pruefen.cjs && vite --host",
     "build": "vite build",
     "build:datei": "vite build --mode datei && node scripts/datei-kopieren.js",
     "preview": "vite preview --host",
@@ -18,5 +18,8 @@
     "svelte": "^5.57.1",
     "vite": "^8.3.1",
     "vite-plugin-singlefile": "^2.3.3"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
   }
 }

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Platzhalterbild Igel">
+  <rect width="400" height="400" fill="#e4e0f0"/>
+  <ellipse cx="200" cy="330" rx="170" ry="30" fill="#000" opacity=".08"/>
+  <g transform="translate(400 0) scale(-1 1)">
+    <polygon points="70.0,230.0 47.7,216.5 73.8,207.3 56.6,190.2 84.9,185.9 73.8,166.3 102.7,167.0 98.3,146.1 126.2,151.8 128.7,130.7 153.9,141.2 163.3,121.2 184.3,135.7 200.0,117.9 215.7,135.7 236.7,121.2 246.1,141.2 271.3,130.7 273.8,151.8 301.7,146.1 297.3,167.0 326.2,166.3 315.1,185.9 343.4,190.2 326.2,207.3 352.3,216.5 330.0,230.0" fill="#4e3826"/>
+    <ellipse cx="200" cy="245" rx="128" ry="80" fill="#8b6b4b"/>
+    <path d="M300 250 q55 -10 72 22 q-20 30 -80 20 z" fill="#e9cfae"/>
+    <circle cx="372" cy="270" r="9" fill="#222"/>
+    <circle cx="322" cy="252" r="7" fill="#222"/>
+    <circle cx="324" cy="250" r="2" fill="#fff"/>
+    <ellipse cx="300" cy="232" rx="12" ry="9" fill="#d9b994"/>
+    <rect x="130" y="305" width="22" height="22" rx="10" fill="#5a4029"/>
+    <rect x="250" y="305" width="22" height="22" rx="10" fill="#5a4029"/>
+  </g>
+  <text x="200" y="385" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#333" opacity=".55">Platzhalterbild</text>
+</svg>

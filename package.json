@@ -1,0 +1,20 @@
+{
+  "name": "igel-leitstelle",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Klickbarer Prototyp der Igel-Leitstelle (Region 10: IN, EI, ND, PAF)",
+  "type": "module",
+  "scripts": {
+    "start": "npm install --no-audit --no-fund && vite --host",
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "test": "node --test src/rules/rules.test.js",
+    "schema-doku": "node scripts/schema-doku.js"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "svelte": "^5.57.1",
+    "vite": "^8.3.1"
+  }
+}

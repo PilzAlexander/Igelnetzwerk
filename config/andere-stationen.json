@@ -1,0 +1,9 @@
+{
+  "_hinweis": "PLATZHALTER – bitte durch echte Stationen/Ansprechpartner*innen ersetzen. Wird angezeigt, wenn eine PLZ außerhalb von Region 10 liegt.",
+  "stationen": [
+    { "name": "Igelstation Beispielstadt (Platzhalter)", "gebiet": "Region München", "telefon": "0123 4567 001", "web": "" },
+    { "name": "Igelhilfe Musterdorf (Platzhalter)", "gebiet": "Region Augsburg", "telefon": "0123 4567 002", "web": "" },
+    { "name": "Igel-Notruf Beispielland (Platzhalter)", "gebiet": "Region Regensburg", "telefon": "0123 4567 003", "web": "" }
+  ],
+  "allgemeiner_hinweis": "Weitere Stationen finden Sie z. B. über Igel-Notrufnummern-Verzeichnisse im Internet. (Platzhalter – Quelle fachlich festlegen)"
+}

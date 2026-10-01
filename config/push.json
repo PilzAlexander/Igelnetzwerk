@@ -1,0 +1,5 @@
+{
+  "_hinweis": "Simulierte Push-Nachricht ans Dienst-Handy. Später übernimmt das n8n. Fachlich klären: Push bei jeder Meldung oder nur bei dringenden?",
+  "empfaenger": "Dienst-Handy",
+  "nur_dringende": false
+}

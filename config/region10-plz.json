@@ -1,0 +1,29 @@
+{
+  "_hinweis": "ZU PRÜFEN / VERVOLLSTÄNDIGEN! Diese Liste ist absichtlich unvollständig. Sie enthält nur wenige Beispiel-PLZ, damit der Prototyp funktioniert. Bitte die vollständige PLZ-Liste für Region 10 fachlich ergänzen und jede Zeile prüfen. Achtung: Manche PLZ gehören zu mehreren Gemeinden oder Landkreisen – dann bitte entscheiden, wohin sie zählen. PLZ, die hier fehlen, werden im Formular ABGEWIESEN.",
+  "landkreise": {
+    "IN": "Ingolstadt",
+    "EI": "Eichstätt",
+    "ND": "Neuburg-Schrobenhausen",
+    "PAF": "Pfaffenhofen a. d. Ilm"
+  },
+  "plz": {
+    "85049": { "ort": "Ingolstadt", "landkreis": "IN" },
+    "85051": { "ort": "Ingolstadt", "landkreis": "IN" },
+    "85053": { "ort": "Ingolstadt", "landkreis": "IN" },
+    "85055": { "ort": "Ingolstadt", "landkreis": "IN" },
+    "85057": { "ort": "Ingolstadt", "landkreis": "IN" },
+
+    "85072": { "ort": "Eichstätt", "landkreis": "EI" },
+    "85080": { "ort": "Gaimersheim", "landkreis": "EI" },
+    "85092": { "ort": "Kösching", "landkreis": "EI" },
+    "92339": { "ort": "Beilngries", "landkreis": "EI" },
+
+    "86633": { "ort": "Neuburg an der Donau", "landkreis": "ND" },
+    "86529": { "ort": "Schrobenhausen", "landkreis": "ND" },
+    "86643": { "ort": "Rennertshofen", "landkreis": "ND" },
+
+    "85276": { "ort": "Pfaffenhofen a. d. Ilm", "landkreis": "PAF" },
+    "85283": { "ort": "Wolnzach", "landkreis": "PAF" },
+    "85290": { "ort": "Geisenfeld", "landkreis": "PAF" }
+  }
+}

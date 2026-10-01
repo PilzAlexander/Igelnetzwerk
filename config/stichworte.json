@@ -1,0 +1,5 @@
+{
+  "_hinweis": "Wann wird eine Meldung automatisch als DRINGEND markiert? Fachlich prüfen. Stichworte werden ohne Groß-/Kleinschreibung im Freitext (Fundort + 'Sonstiges') gesucht, auch als Teil eines Wortes ('blut' findet also auch 'blutet').",
+  "dringende_merkmale": ["maden_fliegeneier", "verletzt"],
+  "dringende_stichworte": ["maden", "made", "fliegeneier", "verletzt", "verletzung", "blutet", "blut", "wunde"]
+}
